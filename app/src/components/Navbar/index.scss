@@ -1,0 +1,57 @@
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .logo-website {
+        display: flex;
+        flex-direction: row-reverse;
+
+        h1 {
+            color: tan
+        }
+
+        img {
+            width: 173px;
+        }
+
+    }
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 40px;
+    background-color: seashell;
+    color: #fff;
+    width: 100%;
+    height: 75px;
+
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0 10px;
+
+            .nav-active {
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+}
+
+// .nav-link {<div className="home">
+
+//     </div>
