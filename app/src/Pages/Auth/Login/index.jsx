@@ -39,22 +39,22 @@ export default function Login() {
 
     return (
         <form onSubmit={handleSubmit}>
-            <div>
+            
                 <label htmlFor="email">Email:</label>
                 <input
                     type="email"
                     id="email"
                     onChange={handleChange}
                 />
-            </div>
-            <div>
+            
+            
                 <label htmlFor="password">Mot de passe:</label>
                 <input
                     type="password"
                     id="password"
                     onChange={handleChange}
                 />
-            </div>
+            
             <button type="submit">Se connecter</button>
         </form>
     );

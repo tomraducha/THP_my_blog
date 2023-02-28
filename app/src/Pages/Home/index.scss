@@ -1,0 +1,24 @@
+.Content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
+}
+
+.Content2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  flex-direction: column;
+  background-image: url('../../images/card.jpg'); // Assurez-vous que le chemin est correct
+  background-size: cover;
+  background-position: center; // La propriété que vous devez ajouter
+  text-align: center;
+
+  h1,
+  p {
+    color: tan;
+  }
+}
